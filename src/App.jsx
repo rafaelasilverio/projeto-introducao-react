@@ -8,9 +8,9 @@ function App() {
   const [nome, setNome] = useState('Fórum Ops');
 
   function mudarNome() {
-    if(nome === 'Fórum Ops')
+    if (nome === 'Fórum Ops') {
       setNome('Suporte Educacional');
-    else{
+    } else {
       setNome('Fórum Ops');
     }
   }
@@ -26,7 +26,7 @@ function App() {
       <button onClick={mudarNome}>
         Clique para mudar o nome
       </button>
- 
+
     </>
   )
 }
